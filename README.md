@@ -3,6 +3,9 @@ First of all:
 - Node js 16.18.0
 - npm install 
 
+Set .env file:
+-  NEXT_PUBLIC_BACKEND_DEV_URL='http://localhost:8080'
+
 ## Overview
 
 This project, titled "todo board front", is a Next.js application with a version of 0.1.0. It's set to private and contains a range of dependencies and scripts aimed at creating a robust front-end development environment.
