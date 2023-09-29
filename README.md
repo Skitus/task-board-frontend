@@ -25,7 +25,6 @@ The application leverages a number of libraries and frameworks to enhance its ca
 - **@emotion/css, @emotion/react, @emotion/styled**: A popular library for writing CSS styles with JavaScript.
 - **@mui/icons-material, @mui/material**: Material-UI components and icons for a consistent, attractive UI.
 - **Axios**: Promise-based HTTP client for making requests.
-- **React-query**: A library for fetching, caching, and updating asynchronous data in React.
 
 ## Dev Dependencies
 
