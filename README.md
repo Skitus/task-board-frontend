@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Front - Next.js Project
+First of all:
+- Node js 16.18.0
+- npm install 
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project, titled "todo board front", is a Next.js application with a version of 0.1.0. It's set to private and contains a range of dependencies and scripts aimed at creating a robust front-end development environment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Scripts
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project comes with several npm scripts to facilitate the development process:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `npm run dev`: Starts the Next.js application in development mode.
+- `npm run build`: Builds the application for production use.
+- `npm run start`: Starts the application in production mode.
+- `npm run lint`: Runs the Next.js linting utility to identify and fix issues in the code.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Dependencies
 
-## Learn More
+The application leverages a number of libraries and frameworks to enhance its capabilities:
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**: The core framework powering the application.
+- **React**: Used as the JavaScript library for building the user interface.
+- **@emotion/css, @emotion/react, @emotion/styled**: A popular library for writing CSS styles with JavaScript.
+- **@mui/icons-material, @mui/material**: Material-UI components and icons for a consistent, attractive UI.
+- **Axios**: Promise-based HTTP client for making requests.
+- **React-query**: A library for fetching, caching, and updating asynchronous data in React.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Dev Dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For development, the project is equipped with:
 
-## Deploy on Vercel
+- **TypeScript**: For adding static types to JavaScript, enhancing the development experience.
+- **ESLint**: A tool for identifying and fixing problems in your JavaScript code.
+- **@types/node, @types/react, @types/react-dom**: Type definitions for Node.js, React, and ReactDOM.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+With this setup, the "front" project is well-equipped for developing a sophisticated and well-structured Next.js application.
